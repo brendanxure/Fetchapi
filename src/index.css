@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+form {
+  display: flex;
+  flex-grow: 1;
+  height: 5vh;
+}
+button {
+  width: 100%;
+}
+.selected {
+  background-color: black;
+  color: white;
+}
